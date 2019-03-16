@@ -1,0 +1,7 @@
+First day we will include react cdn in our index page by which we can run a simple react component in your application by which you start the flow of the react project
+where you get to know about
+various 
+react (where the core react concept lies)
+reactdom ( where dom manipulation happens)
+reactdom-facotry (where creating and bundleing all the dom element)
+but we will switch jsx instead of reactdom-facotry

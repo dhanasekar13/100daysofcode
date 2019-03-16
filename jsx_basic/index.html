@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Home page</title>
+        <script crossorigin src="https://unpkg.com/react@16.0.0-rc.2/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@16.0.0-rc.2/umd/react-dom.development.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"></script>
+</head>
+    <body>
+            <div id="app"></div>
+            <script type="text/babel">// this type says this script is not a normal javascript file need to convert the code to vanilla code
+                class Name extends React.Component {
+                    // we have created the react component but we are not render the component inside the dom element
+
+                    render() {
+                        return (
+                                <div>
+                                    <h2>Dhanasekar</h2>
+                                    <img  alt="Dhanasekar image" src="https://www.google.com/maps/uv?hl=en&pb=!1s0x3a5267df0489f697:0xe305fef9e8c694b7!2m22!2m2!1i80!2i80!3m1!2i20!16m16!1b1!2m2!1m1!1e1!2m2!1m1!1e3!2m2!1m1!1e5!2m2!1m1!1e4!2m2!1m1!1e6!3m1!7e115!4shttps://lh5.googleusercontent.com/p/AF1QipMlxJyVSbeBwheMPNzMQJqdGiOz0SK9kpagkQZc%3Dw520-h175-n-k-no!5sdhanasekar+-+Google+Search&imagekey=!1e10!2sAF1QipMlxJyVSbeBwheMPNzMQJqdGiOz0SK9kpagkQZc" />
+                                </div>
+                        )
+                    }
+                }
+
+                //we need to render the component to the dom 
+                //for that we are using the reactdom
+                //Thus we are rendering the specific component on the specific element of the dom 
+                ReactDOM.render(<Name/>, document.getElementById('app'))
+            </script>
+
+    </body>
+</html>

@@ -1,0 +1,10 @@
+Before start using jsx
+We need to know about BABEL, A Transpiler
+and use jsx in our react component
+
+What is BABEL
+ BABEL is a Transpiler 
+ Transpiler - converts from one source code version to another 
+
+
+In React we use BABEL to convert JSX to vanilla js
