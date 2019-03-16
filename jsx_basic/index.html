@@ -4,6 +4,27 @@
         <script crossorigin src="https://unpkg.com/react@16.0.0-rc.2/umd/react.development.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@16.0.0-rc.2/umd/react-dom.development.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"></script>
+<style>
+    #app {
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+    }
+    .name {
+        font-size:4em;
+        margin: .25em; 
+    }
+    .card {
+        font-family:'Lucida Sans';
+        margin:10px;
+        padding:10px;
+        border-radius:10px;
+        border: 4px solid auto;
+        display:flex;
+        flex-direction: columnl;
+        align:center
+    }
+</style>
 </head>
     <body>
             <div id="app"></div>
@@ -13,9 +34,9 @@
 
                     render() {
                         return (
-                                <div>
-                                    <h2>Dhanasekar</h2>
-                                    <img  alt="Dhanasekar image" src="https://www.google.com/maps/uv?hl=en&pb=!1s0x3a5267df0489f697:0xe305fef9e8c694b7!2m22!2m2!1i80!2i80!3m1!2i20!16m16!1b1!2m2!1m1!1e1!2m2!1m1!1e3!2m2!1m1!1e5!2m2!1m1!1e4!2m2!1m1!1e6!3m1!7e115!4shttps://lh5.googleusercontent.com/p/AF1QipMlxJyVSbeBwheMPNzMQJqdGiOz0SK9kpagkQZc%3Dw520-h175-n-k-no!5sdhanasekar+-+Google+Search&imagekey=!1e10!2sAF1QipMlxJyVSbeBwheMPNzMQJqdGiOz0SK9kpagkQZc" />
+                                <div clasName="card"> 
+                                    <h2 className="name">Dhanasekar</h2>
+                                    <img  alt="Dhanasekar image" src="http://dhanasekar.rf.gd/images/banner-bg.jpg" />
                                 </div>
                         )
                     }
