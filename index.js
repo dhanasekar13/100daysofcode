@@ -3,7 +3,7 @@ const { ApolloServer, gql } = require('apollo-server-express')
 require('./config')
 const schema = require('./graphql/schema')
 const server = new ApolloServer({
-   schema
+   schema 
 })
 
 const app = express()
